@@ -15,6 +15,8 @@
 		70D30C9F242BA3FC000E46E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D30C9D242BA3FC000E46E4 /* LaunchScreen.storyboard */; };
 		70D30CAA242BA3FC000E46E4 /* myDiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D30CA9242BA3FC000E46E4 /* myDiceAppTests.swift */; };
 		70D30CB5242BA3FC000E46E4 /* myDiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D30CB4242BA3FC000E46E4 /* myDiceAppUITests.swift */; };
+		70D30CC3242BB5BE000E46E4 /* oneDieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D30CC2242BB5BE000E46E4 /* oneDieViewController.swift */; };
+		70D30CC5242BC297000E46E4 /* twoDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D30CC4242BC297000E46E4 /* twoDiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		70D30CB0242BA3FC000E46E4 /* myDiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70D30CB4242BA3FC000E46E4 /* myDiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDiceAppUITests.swift; sourceTree = "<group>"; };
 		70D30CB6242BA3FC000E46E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D30CC2242BB5BE000E46E4 /* oneDieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneDieViewController.swift; sourceTree = "<group>"; };
+		70D30CC4242BC297000E46E4 /* twoDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoDiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				70D30C94242BA3F7000E46E4 /* SceneDelegate.swift */,
 				70D30C96242BA3F7000E46E4 /* ViewController.swift */,
 				70D30C98242BA3F7000E46E4 /* Main.storyboard */,
+				70D30CC2242BB5BE000E46E4 /* oneDieViewController.swift */,
+				70D30CC4242BC297000E46E4 /* twoDiceViewController.swift */,
 				70D30C9B242BA3FC000E46E4 /* Assets.xcassets */,
 				70D30C9D242BA3FC000E46E4 /* LaunchScreen.storyboard */,
 				70D30CA0242BA3FC000E46E4 /* Info.plist */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D30CC5242BC297000E46E4 /* twoDiceViewController.swift in Sources */,
+				70D30CC3242BB5BE000E46E4 /* oneDieViewController.swift in Sources */,
 				70D30C97242BA3F7000E46E4 /* ViewController.swift in Sources */,
 				70D30C93242BA3F7000E46E4 /* AppDelegate.swift in Sources */,
 				70D30C95242BA3F7000E46E4 /* SceneDelegate.swift in Sources */,
